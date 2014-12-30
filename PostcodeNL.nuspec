@@ -2,15 +2,18 @@
 <package >
   <metadata>
     <id>PostcodeNL</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <authors>Robert Massa</authors>
     <projectUrl>https://github.com/TheSustainables/PostcodeNL</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Postcode.NL .NET client library (unofficial)</description>
     <copyright>Copyright The Sustainables BV 2015</copyright>
     <tags>postcode zipcode dutch</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.0" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="PostcodeNL\bin\Release\*.dll" target="lib\net40" /> 
+    <file src="PostcodeNL\bin\Release\PostcodeNL.dll" target="lib\net40" /> 
   </files>
 </package>
