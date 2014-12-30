@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PostcodeNL</id>
+    <version>0.1.0</version>
+    <authors>Robert Massa</authors>
+    <projectUrl>https://github.com/TheSustainables/PostcodeNL</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Postcode.NL .NET client library (unofficial)</description>
+    <copyright>Copyright The Sustainables BV 2015</copyright>
+    <tags>postcode zipcode dutch</tags>
+  </metadata>
+  <files>
+    <file src="PostcodeNL\bin\Release\*.dll" target="lib\net40" /> 
+  </files>
+</package>
